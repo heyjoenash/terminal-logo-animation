@@ -1,0 +1,27 @@
+{
+  "rewrites": [
+    {
+      "source": "/show",
+      "destination": "https://raw.githubusercontent.com/heyjoenash/terminal-logo-animation/main/flow.sh"
+    },
+    {
+      "source": "/flow",
+      "destination": "https://raw.githubusercontent.com/heyjoenash/terminal-logo-animation/main/flow.sh"
+    },
+    {
+      "source": "/bt",
+      "destination": "https://raw.githubusercontent.com/heyjoenash/terminal-logo-animation/main/bt"
+    }
+  ],
+  "headers": [
+    {
+      "source": "/(show|flow|bt)",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "text/plain"
+        }
+      ]
+    }
+  ]
+}
