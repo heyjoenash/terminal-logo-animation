@@ -1,0 +1,3 @@
+#!/bin/bash
+# BrandTrackers mega experience - shortest possible
+curl -s https://raw.githubusercontent.com/heyjoenash/terminal-logo-animation/main/flow.sh | bash
