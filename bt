@@ -36,8 +36,7 @@ show_logo() {
     echo "${CYAN}║                                                                                ║${RESET}"
     echo "${CYAN}╚════════════════════════════════════════════════════════════════════════════════╝${RESET}"
     echo
-    echo "                    ${BOLD}${YELLOW}🎯 TRACK • ANALYZE • OPTIMIZE • SCALE 🚀${RESET}"
-    echo "                         ${CYAN}Terminal-Powered Brand Intelligence${RESET}"
+    echo "                           ${BOLD}${YELLOW}www.brandtrackers.xyz${RESET}"
     echo
 }
 
@@ -77,17 +76,11 @@ typewriter_effect() {
     done
     
     echo
-    tagline="                    🎯 TRACK • ANALYZE • OPTIMIZE • SCALE 🚀"
-    for (( i=0; i<${#tagline}; i++ )); do
-        printf "${BOLD}${YELLOW}%c${RESET}" "${tagline:$i:1}"
-        sleep 0.015
-    done
     echo
-    
-    subtitle="                         Terminal-Powered Brand Intelligence"
-    for (( i=0; i<${#subtitle}; i++ )); do
-        printf "${CYAN}%c${RESET}" "${subtitle:$i:1}"
-        sleep 0.01
+    website="                           www.brandtrackers.xyz"
+    for (( i=0; i<${#website}; i++ )); do
+        printf "${BOLD}${YELLOW}%c${RESET}" "${website:$i:1}"
+        sleep 0.02
     done
     echo
     echo
