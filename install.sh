@@ -1,9 +1,13 @@
 #!/bin/bash
 
-# BrandTrackers Terminal Logo - One-liner installer and runner
-# Usage: curl -s https://raw.githubusercontent.com/[repo]/install.sh | bash
+# BrandTrackers Terminal Logo - Multi-method installer
+# Works with curl, wget, or python - no dependencies required!
+# Usage: curl -s https://cli.brandtrackers.xyz/install | bash
+#    or: wget -qO- https://cli.brandtrackers.xyz/install | bash  
+#    or: python3 -c "import urllib.request; exec(urllib.request.urlopen('https://cli.brandtrackers.xyz/install').read().decode())"
 
 echo "🚀 Installing BrandTrackers Terminal Logo..."
+echo "📦 Multi-method installer (curl/wget/python compatible)"
 
 # Create brandtrackers command in /usr/local/bin
 cat > /tmp/brandtrackers << 'EOF'
